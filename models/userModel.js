@@ -7,6 +7,6 @@ const UserSchema = new mongoose.Schema({
   address: String,
 })
 
-const User = mongoose.models.User || mongoes.model('User', UserSchema)
+const User = mongoose.models.User || mongoose.model('User', UserSchema)
 
 export default User
